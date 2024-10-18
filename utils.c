@@ -281,7 +281,7 @@ int findString(const char *str, int n, string_node *hashtable[])
 		if (strcmp(str, cur->str) == 0)
 			return 1;
 
-		cur = cur->next;
+		cur = cur->next;    
 	}
 
 	return 0;
